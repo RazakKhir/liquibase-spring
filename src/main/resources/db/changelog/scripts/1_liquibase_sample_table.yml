@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: mango_cast1e
+      changes:
+        - sqlFile:
+            path: db/sql/liquibase_sample.sql
